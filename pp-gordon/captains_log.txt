@@ -1,0 +1,43 @@
+*23 July 2016
+finished annotator for entities in practice classifier folder
+	everything saves to annotated_for_entities.dat
+
+edited streamer.py
+	now looks for links and rts on the fly, does not 'download' them
+
+
+
+*24 August 2016
+Okay embarassing this may be, I haven't touched this in a month, but here's the deal
+
+have edited streamer.py so that it automatically writes to a json file
+and also have added a ceiling to the number, so I won't get, like, more than a thousand, this can be fixed
+
+Now it creates a .dat file kind of like this:
+
+filter1_filter2_day_month_year.dat
+
+--
+Okay so I went to annotate some more tweets and I ran into two problems:
+-It said that I had annotated 4800 tweets, when I really had done 58, so I think something's wrong with my annotaton program
+
+-I don't really know what should be an entity. I mean, I guess I should be just seeing if the Hillary is
+actually the Hillary, but then what about mispellings? FUCK, I'm going to throw up.
+
+So, for the future, I need to fix #1 and get ~1000 annotated then classified and then get my shit together wrt #2
+
+-----
+
+September 7th
+
+Okay did a couple of things, the first and foremost is I got started on a classifier to say whether or
+not it is polar or neutral tweet
+it's in the practice_classifier folder
+I downloaded a lexicon
+and right now the classifier all the polar words into one set
+but maybe we want to do the bayesian thing?
+the program is called sentiment_classifier.py and takes no entries
+
+8 September 2016
+created pushmepullyou.sh, which syncs things with the ssh server
+set up git

@@ -1,0 +1,5 @@
+*.dat
+*~
+papers/
+pre_rsync_stuff/
+rsync_test_folder/
