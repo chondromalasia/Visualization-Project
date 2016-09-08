@@ -41,3 +41,6 @@ the program is called sentiment_classifier.py and takes no entries
 8 September 2016
 created pushmepullyou.sh, which syncs things with the ssh server
 set up git
+I had forgotten to strip newlines from lexicon reader
+now can actually classify based off of the thing
+start keeping track tomorrow
