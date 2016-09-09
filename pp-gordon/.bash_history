@@ -199,3 +199,41 @@ python count_tweets.py hilary_trump_23_07_2016.dat
 ls
 ./pushmepullyou.sh --pull
 logout
+ls
+cd volume/
+ls
+python total_volume_counter.py 
+less volume.csv
+ls
+less total_volume.csv
+cat > total_volume.csv
+less total_volume.csv
+vim total_volume.py
+ls
+vim total_volume_counter.py 
+nohup python total_volume_counter.py > output.log &
+logout
+htop
+cd volume/
+htop
+ps
+ps aux
+htop
+less total_volume.csv 
+nohup python total_volume_counter.py > output.log &
+cd volume/
+less total_volume.csv 
+htop
+cd volume/
+less total_volume.
+less total_volume.csv 
+htop
+ls
+less output.log 
+htop
+vim total_volume_counter.py 
+python total_volume_counter.py 
+cat > total_volume.csv 
+less total_volume.csv 
+nohup python total_volume_counter.py > output.log &
+htop

@@ -8,8 +8,8 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
-:q
 :wq
+:q
 :w
 :wo
 :qw
@@ -29,39 +29,43 @@
 			elif answer == 'd':
 				return False
 ""1	LINE	0
-	                print line
+	                        print 'key errrrrrr'
 "2	LINE	0
-				print(new_tweet["text"])
+					print time.time() - self.start_time
 "3	LINE	0
-		# create a new file
+	                print line
 "4	LINE	0
-		file_name = sys.argv[1][:-4] + '_edit' + '.txt'
+				print(new_tweet["text"])
 "5	LINE	0
-		if sys.argv[1][-9:-4] != '_edit':
+		# create a new file
 "6	LINE	0
-		# see if it's already been edited
+		file_name = sys.argv[1][:-4] + '_edit' + '.txt'
 "7	LINE	0
-				return False
+		if sys.argv[1][-9:-4] != '_edit':
 "8	LINE	0
-			elif answer == 'd':
+		# see if it's already been edited
 "9	LINE	0
-			answer = ask()
+				return False
 "-	CHAR	0
-	"
+	2
 
 # File marks:
-'0  1  0  ~/streamer.py~
-'1  10  36  ~/public_html.html
-'2  13  2  ~/count_tweets.py
-'3  7  27  ~/count_tweets.py
-'4  1  0  ~/count_tweets.py
-'5  10  15  ~/practice_classifier/manual_classification.py
-'6  67  23  ~/practice_classifier/manual_classification.py
-'7  65  18  ~/practice_classifier/manual_classification.py
-'8  62  23  ~/practice_classifier/manual_classification.py
-'9  64  15  ~/practice_classifier/manual_classification.py
+'0  73  6  ~/volume/total_volume_counter.py
+'1  71  4  ~/volume/total_volume_counter.py
+'2  1  0  ~/volume/total_volume.py
+'3  1  0  ~/streamer.py~
+'4  10  36  ~/public_html.html
+'5  13  2  ~/count_tweets.py
+'6  7  27  ~/count_tweets.py
+'7  1  0  ~/count_tweets.py
+'8  10  15  ~/practice_classifier/manual_classification.py
+'9  67  23  ~/practice_classifier/manual_classification.py
 
 # Jumplist (newest first):
+-'  73  6  ~/volume/total_volume_counter.py
+-'  1  0  ~/volume/total_volume_counter.py
+-'  71  4  ~/volume/total_volume_counter.py
+-'  1  0  ~/volume/total_volume.py
 -'  1  0  ~/streamer.py~
 -'  10  36  ~/public_html.html
 -'  1  0  ~/public_html.html
@@ -155,13 +159,19 @@
 -'  1  0  ~/index.html
 -'  11  6  ~/index.html
 -'  1  0  ~/index.html
--'  11  6  ~/index.html
--'  1  0  ~/index.html
--'  11  6  ~/index.html
--'  1  0  ~/index.html
--'  11  6  ~/index.html
 
 # History of marks within files (newest to oldest):
+
+> ~/volume/total_volume_counter.py
+	"	73	6
+	^	73	7
+	.	73	6
+	+	43	38
+	+	63	0
+	+	73	6
+
+> ~/volume/total_volume.py
+	"	1	0
 
 > ~/streamer.py~
 	"	1	0

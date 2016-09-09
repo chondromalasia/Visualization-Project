@@ -44,3 +44,13 @@ set up git
 I had forgotten to strip newlines from lexicon reader
 now can actually classify based off of the thing
 start keeping track tomorrow
+September 9th 
+So I've started working on a volume counter, just to see if that is
+at all predictive
+there's a new folder under pp-gordon with /volume/
+and the program is volume_counter.py
+okay I now have total_volume_counter.py running on the server
+it picks up the total count and then also breaks it down by mention of
+each person, saving these numbers every ten minutes
+so hopefully we'll have a pretty good idea of how it looks at the end of t
+eekend
